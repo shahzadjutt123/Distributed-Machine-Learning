@@ -1,6 +1,6 @@
-# AwesomeDML
+# Distributed Machine Learning
 
-Awesome DML is a Simple Distributed Machine Learning system which handles large data sets and provides a CLI interface to RUN inference jobs on pretrained ResNet50 and InceptionV3 jobs.
+Distributed Machine Learning is a Simple Distributed Machine Learning system which handles large data sets and provides a CLI interface to RUN inference jobs on pretrained ResNet50 and InceptionV3 jobs.
 
 SDFS uses scp internally to download files from a host. The username and password for host should be provided using `password.txt` file with `username,password` format.
 
