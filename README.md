@@ -13,7 +13,6 @@ Edit the `config.py` file in `introduce process` and `awesomedml` with the infor
 Enter the `hostname` or `IP` and `Port` for the node tobe monitor.
 
 ```python
-
 H1: final = Node('127.0.0.1', 8001, 'H1')
 H2: final = Node('127.0.0.1', 8002, 'H2')
 H3: final = Node('127.0.0.1', 8003, 'H3')
@@ -123,59 +122,3 @@ Option C4: Submits job for each model and also get inference outputs
 Option C5: Deplay the current assigned jobs on each VM
 
 ```console
-choose one of the following options or type commands:
-
-MP4 commands:
-
- C1: Query Rate (10sec) & Query Count [Per model]
-
- C2: Query Processing Time: [Average, Percentiles, Standard Deviation]
-
- C3 <InceptionV3|ResNet50> <Batch Size>
-
- C4: submit-job <InceptionV3|ResNet50> <num:of images>
-
- C4: get-output <jobid>
-
- C5: Display current assigned jobs
-
-
-
-options:
-
- 1. list the membership list.
-
- 2. list self id.
-
- 3. join the group.
-
- 4. leave the group.
-
- 5. load testfiles into sdfs.
-
- 6. print files stored per node.
-
- 7. print all files in the SDFS.
-
- 8. print number of files in the SDFS.
-
-
-
-commands:
-
- * put <localfilename> <sdfsfilename>
-
- * get <sdfsfilename> <localfilename>
-
- * get-all <sdfsfilepattern> <local_dir>
-
- * delete <sdfsfilename>
-
- * ls <sdfsfilename>
-
- * ls-all <sdfsfilepattern>
-
- * store
-
- * get-versions <sdfsfilename> <numversions> <localfilename>
-```
